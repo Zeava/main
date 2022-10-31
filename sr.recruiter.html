@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rover It</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<style type="text/css">
+		.body{
+			padding-left: 150rem;
+			background-color: lightcoralt;
+		}
+		.container{
+			margin: auto;
+			padding: auto;
+			align-content: left;
+			align-items: center;
+			display: flex;
+			background: linear-gradient(lightblue,pink);
+			padding-left: 150px;
+			width: 60%;
+			height: 100%;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			border-radius: 10px;
+			font-style: unset;
+
+		}
+		.textarea{
+			background-color: lightblue;
+
+		}
+		.main{
+			width: 60%;
+			height: 40%;
+			padding-right: 100px;
+			margin-left: 50vh;
+		}
+		textarea{
+			padding-left: 500px;
+			background-color: lightblue;
+		}
+	</style>
+</head>
+<body style="background: radial-gradient(lightgreen,gray);">
+	<div class="main">
+		<img src="logo.png" style="padding-right: 100px;">
+	</div>
+<div class="container">
+	<form autocomplete="off" method="post">
+		1.	Do you participate in tech communities and forums like LinkedIn groups to find potential candidates?<br>
+		<br><input type="textarea" size="100"  name="q1"><br>
+		<textarea rows="5"></textarea>
+		<br>2.How do you follow up with candidates whom you've contacted previously?<br>
+		<br><input type="textarea" size="100"name="q2"><br>
+        <br>3.What technological roles do you find are the most challenging to fill? Why?<br>
+        <br><input type="textarea" size="100" name="q3"><br>
+        <br>4.Have you ever had a disagreement with a hiring manager you were working with? How did you handle it?<br>
+        <br><input type="textarea" size="100" name="q4"><br>
+        <br>5.Why do you feel strong networking and communication skills are important for technical recruiting?<br>
+         <br><input type="textarea" size="100"name="q5"><br>
+        <br>6.How do you help potential candidates through the hiring process if you know they are the perfect person for the role?<br>
+         <br><input type="textarea"size="100" name="q6"><br>
+        <br>7.When screening profile of consultants, what qualifications do you look for as the most employable?<br>
+         <br><input type="textarea"size="100" name="q7"><br>
+        <br>8.How do you create job descriptions for technical roles?<br>
+             <br><input type="textarea"size="100" name="q8"><br>
+        <br>9.What contributions did you make to your last organization?<br>
+         <br><input type="textarea"size="100" name="q9"><br>
+        <br>10.What do you feel are important qualities to have to be successful in technical recruiting?<br>
+         <input type="textarea"size="100" name="q10"><br>
+
+		<br><input type="button" name="Submit" value= "Submit" onclick="successful" style="margin: 20px;padding: 30px" onsubmit="post">
+	</form>
+
+</div>
+</body>
+</html>
